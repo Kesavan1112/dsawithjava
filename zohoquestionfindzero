@@ -1,0 +1,61 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+ 
+ 
+ 
+    
+    
+    
+class Main {
+    public static void main(String[] args) {
+        
+        
+        int a[]={0,1,2,0,3};
+        zerofinalss(a);
+    }
+    static void zerofinalss(int a[]){
+          int j=0,zero=0;
+        for(int i=0;i<a.length;i++){
+    
+        if(a[i]!=0){
+          
+            a[j]=a[i];//a[0]=1
+            j++;//1
+        }
+        else{
+            zero++;//2
+            
+        }
+    }
+
+    for(int b=a.length-zero;b<a.length;b++){
+        a[b]=0;
+    }
+    
+    for(int i=0;i<a.length;i++){
+        
+        System.out.println(a[i]);
+    }
+    
+    
+    }
+}
+    
+    
+    
+    
